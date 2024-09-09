@@ -40,19 +40,19 @@
  * SAMPLE-INPUT: I AM LEARNING PROGRAMMING TO BECOME A PROGRAMMER
  * SAMPLE-OUTPUT: PROGRAMMING
  */
-function lowestWord (low){
-    let words = low.split(' ');
-    let lowestedWord = words[0];
+// function lowestWord (low){
+//     let words = low.split(' ');
+//     let lowestedWord = words[0];
 
-    for(let word of words){
-        if(word.length < lowestedWord.length){
-            lowestedWord = word;
-        }
-    }
-    return lowestedWord;
-}
-let result = lowestWord('i am learning programming to become a programmer');
-console.log(result);
+//     for(let word of words){
+//         if(word.length < lowestedWord.length){
+//             lowestedWord = word;
+//         }
+//     }
+//     return lowestedWord;
+// }
+// let result = lowestWord('i am learning programming to become a programmer');
+// console.log(result);
 
 
 
